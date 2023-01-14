@@ -1,0 +1,257 @@
+/**
+    * @name Bunnies Theme for Kitteh
+    * @version 1.0.0
+    * @description Yes
+    * @author Nevolox
+**/
+
+@import url("https://stickfab.github.io/pc-fluenticons/FluentIcons.css");
+@import url(https://discord-theme.pages.dev/assets/snippets/watermark.css);
+.messageContent-2t3eCI a[href^="https://discord.com"]:not([href*="channels"])
+{
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+}
+
+.messageContent-2t3eCI a[href^="https://discord.com"]:not([href*="channels"])::after
+{
+    content: "Jump To Discord";
+    font-size: 11pt !important;
+    line-height: 10px !important;
+    background: var(--brand-experiment-30a);
+    color: var(--brand-experiment-200);
+    transition: background-color 50ms ease-out, color 50ms ease-out;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 500;
+}
+
+.messageContent-2t3eCI a[href^="https://support.discord.com"]
+{
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+}
+
+.messageContent-2t3eCI a[href^="https://support.discord.com"]::after
+{
+    content: "Jump To Discord Support" !important;
+    font-size: 11pt !important;
+    line-height: 10px !important;
+    background: var(--brand-experiment-30a);
+    color: var(--brand-experiment-200);
+    transition: background-color 50ms ease-out, color 50ms ease-out;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 500;
+}
+
+.messageContent-2t3eCI a[href^="https://discordstatus.com"]
+{
+    font-size: 0;
+    line-height: 0;
+    text-decoration: none;
+}
+
+.messageContent-2t3eCI a[href^="https://discordstatus.com"]::after
+{
+    content: "Jump To Discord Status" !important;
+    font-size: 11pt !important;
+    line-height: 10px !important;
+    background: var(--brand-experiment-30a);
+    color: var(--brand-experiment-200);
+    transition: background-color 50ms ease-out, color 50ms ease-out;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 0 2px;
+    font-weight: 500;
+}
+
+.messageContent-2t3eCI a[href^="https://discord.com"]:hover::after, .messageContent-2t3eCI a[href^="https://discordstatus.com"]:hover::after, .messageContent-2t3eCI a[href^="https://support.discord.com"]:hover::after
+{
+    color: #fff;
+    background-color: var(--brand-experiment);
+}
+
+.messageContent-2t3eCI a[href^="https://discord.com/tos"]::after
+{
+    content: "Jump To TOS" !important;
+}
+
+.messageContent-2t3eCI a[href^="https://discord.com/terms"]::after
+{
+    content: "Jump To TOS" !important;
+}
+
+.messageContent-2t3eCI a[href^="https://discord.com/nitro"]::after
+{
+    content: "Jump To Nitro" !important;
+}
+
+.messageContent-2t3eCI a[href^="https://discord.com/safety"]::after
+{
+    content: "Jump To Trust and Safety" !important;
+}
+
+.messageContent-2t3eCI a[href^="https://discord.com/blog"]::after
+{
+    content: "Jump To Blog" !important;
+}
+
+.messageContent-2t3eCI a[href^="https://discord.com/jobs"]::after
+{
+    content: "Jump To Jobs At Discord" !important;
+}
+
+.messageContent-2t3eCI a[href^="https://discord.com/branding"]::after
+{
+    content: "Jump To Discord Branding" !important;
+}
+
+.role-2TIOKu {
+  transform: translate(0);
+  border:0;
+  border-radius: 7px;
+}
+.role-2TIOKu .roleRemoveIcon-387wKV {
+  margin: 0;
+  left: unset;
+  transform: translate(50%,-50%);
+}
+.role-2TIOKu .roleRemoveButton-17oXnT{position: static}
+.role-2TIOKu .roleCircle-3K9O3d:before {
+  content: '';
+  top: 0;left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  background: inherit;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  -webkit-mask: linear-gradient(#000 0 0) padding-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+}
+
+.bannerSVGWrapper-qc0szY mask {
+    display: none;
+}
+
+.userPopout-2j1gM4 .wrapper-1VLyxH::before,
+.avatar-3QF_VA::before {
+    content: " ";
+    font-size: 0px;
+    background-color: var(--background-floating);
+    float: left;
+    border-radius: 50%;
+    height: 94px;
+    width: 94px;
+    margin: -7px;
+}
+
+.avatar-3QF_VA::before {
+    height: 136px;
+    width: 136px;
+    margin: -8px;
+}
+
+.userPopout-2j1gM4 [class^="avatarWrapper"] .wrapper-1VLyxH,
+.avatarHint-k7pYop {
+    top: 9px;
+}
+
+@import url(https://dablulite.github.io/accountdetailscolumns/import.css);
+.guilds-2JjMmN .muted-jUCIgx,
+.guilds-2JjMmN .guildIconMuted-1J02vT {
+  filter: none;
+}
+
+.sidebar-1tnWFu .unreadBar-elBRZx {
+    width: 102px;
+    margin: auto;
+    text-transform: capitalize;
+    color: var(--text-normal);
+    background-color: var(--background-tertiary);
+}
+
+.sidebar-1tnWFu .unreadBar-elBRZx:not(.mention-3XBnnZ) span:before {
+    margin: -2px 8px 0px 6px;
+    float: left;
+}
+
+.sidebar-1tnWFu
+    .unreadTop-1DJtGv
+    .unreadBar-elBRZx:not(.mention-3XBnnZ)
+    span:before {
+    content: url("https://i.imgur.com/xN4NFmi.png");
+}
+
+.sidebar-1tnWFu
+    .unreadBottom-3Ojk6R
+    .unreadBar-elBRZx:not(.mention-3XBnnZ)
+    span:before {
+    content: url("https://i.imgur.com/H9iG4mp.png");
+}
+
+.sidebar-1tnWFu .unreadBar-elBRZx.mention-3XBnnZ span:before {
+    content: " ";
+    font-size: 0px;
+    background-color: var(--status-danger);
+    float: left;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    margin: 4px 3px auto auto;
+}
+
+
+:root {
+  --watermark: "Kittehcord"
+  
+}
+
+[class^="channelTextArea"]::before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    bottom: calc(100% - 3px); /* Mess with the - 3px to change its vertical position */
+    right: 10px; /* Switch this from right to left to put it on the left side, or increase/decrease to change its position */
+    position: absolute;
+    image-rendering: pixelated;
+    background-image: url("https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif");
+    animation: oneko 1s infinite; /* change 1s to make the animation slower/faster */
+}
+
+@keyframes oneko {
+    /*
+    if you open the background image in ur browser, you will see that it has way more frames
+    so if you want, you could make ur own keyframes for a different animation
+    the top left frame is 0 0, second top row is -32 0, second row second is -32 -32 and so on
+    the ...00001% makes it so that there's no transition between the frames, so if you wanted say 3 frames, you'd do 0%, 33.3%; 33.30001%, 66.6%; 66.60001%, 100%
+    */
+    0%, 50% {
+        background-position: -64px 0;
+    }
+    50.0001%, 100% {
+        background-position: -64px -32px;
+    }
+}
+
+#app-mount .guilds-2JjMmN .tutorialContainer-1pL9QS .listItem-3SmSlK:first-child .wrapper-3kah-n:before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  background: var(--home-button-image, url("https://i.imgur.com/EN2OZ5V.png"));
+  background-size: var(--home-button-size, cover);
+  background-position: var(--home-button-position, center);
+  height: 100%;
+  width: 100%;
+  transition: 0.2s ease;
+}
+.homeIcon-r0w4ny {
+    display: none;
+}
